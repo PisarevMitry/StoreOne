@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constrainQuickCategories"
+                android:layout_width="413dp"
+                android:layout_height="482dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constrainQuickButtons">
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories11"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories12"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories8"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories12"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories10"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories7"
+                    app:srcCompat="@drawable/bed" />
+
+                <TextView
+                    android:id="@+id/textQuickCategories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/popular_categories"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories1"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="36dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonQuickCategories"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textQuickCategories"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories6"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButtonQuickCategories1"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonQuickCategories1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories1"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories2"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButtonQuickCategories"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories"
+                    app:layout_constraintTop_toTopOf="@+id/imageButtonQuickCategories"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButtonQuickCategories1"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonQuickCategories2"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories1"
+                    app:layout_constraintTop_toTopOf="@+id/imageButtonQuickCategories1"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories7"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories8"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="1dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonQuickCategories7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories2"
+                    app:srcCompat="@drawable/bed" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonQuickCategories10"
+                    android:layout_width="126dp"
+                    android:layout_height="100dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="@string/res"
+                    android:scaleType="fitStart"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonQuickCategories6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonQuickCategories6"
+                    app:srcCompat="@drawable/bed" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constrainQuickButtons"
+                android:layout_width="0dp"
+                android:layout_height="153dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slide_images">
+
+                <ImageButton
+                    android:id="@+id/imageButtonPromotions"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#FFD600"
+                    android:contentDescription="@string/res"
+                    android:src="@drawable/ic_action_card"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonLocation"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewPromotion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/promotion"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButtonPromotions"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonPromotions"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonPromotions" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonLocation"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#64DD17"
+                    android:contentDescription="@string/res"
+                    android:src="@drawable/ic_action_location"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButtonPromotions"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonDelivery"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonPromotions"
+                    app:layout_constraintTop_toTopOf="@+id/imageButtonPromotions" />
+
+                <TextView
+                    android:id="@+id/textViewLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/location"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButtonLocation"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonLocation"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonLocation" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonDelivery"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#DD2C00"
+                    android:contentDescription="@string/res"
+                    android:src="@drawable/ic_action_delivery"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButtonLocation"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButtonGift"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonLocation"
+                    app:layout_constraintTop_toTopOf="@+id/imageButtonLocation" />
+
+                <TextView
+                    android:id="@+id/textViewDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/delivery"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButtonDelivery"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonDelivery"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonDelivery" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonGift"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="#2962FF"
+                    android:contentDescription="@string/res"
+                    android:src="@drawable/ic_action_gift"
+                    android:tint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButtonDelivery"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/imageButtonDelivery"
+                    app:layout_constraintTop_toTopOf="@+id/imageButtonDelivery" />
+
+                <TextView
+                    android:id="@+id/textViewGift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/gift"
+                    app:layout_constraintEnd_toEndOf="@+id/imageButtonGift"
+                    app:layout_constraintStart_toStartOf="@+id/imageButtonGift"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButtonGift" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="378dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="262dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/constrainQuickButtons"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/slide_images"
+                android:layout_width="409dp"
+                android:layout_height="284dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.viewpager2.widget.ViewPager2>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
